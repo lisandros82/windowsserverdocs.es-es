@@ -25,7 +25,7 @@ ms.locfileid: "71383657"
 >Se aplica a: Windows Server (canal semianual), Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Finaliza uno o más procesos o tareas. Los procesos se pueden finalizar por el identificador del proceso o el nombre de la imagen. **Taskkill** reemplaza la herramienta **Kill** .
-Para obtener ejemplos de cómo utilizar este comando, consulte [Ejemplos](#examples).
+Para obtener ejemplos de cómo utilizar este comando, consulte [ejemplos](#examples).
 
 ## <a name="syntax"></a>Sintaxis
 
@@ -62,7 +62,7 @@ taskkill [/s <computer> [/u [<Domain>\]<UserName> [/p [<Password>]]]] {[/fi <Fil
 |   ADICIONALES   |         eq, ne         |                                                                   Nombre de DLL                                                                   |
 
 ## <a name="remarks"></a>Comentarios
-* Los filtros WINDOWTITLE y STATUs no se admiten cuando se especifica un sistema remoto.
+* Los filtros WINDOWTITLE y STATUS no se admiten cuando se especifica un sistema remoto.
 * El carácter comodín ( **\\** <em>) se acepta para la opción * */im</em>*  solo cuando se aplica un filtro.
 * La terminación de los procesos remotos siempre se lleva a cabo forzosamente, independientemente de si se especifica la opción **/f** .
 * El suministro de un nombre de equipo al filtro hostname provoca un cierre y se detienen todos los procesos.
